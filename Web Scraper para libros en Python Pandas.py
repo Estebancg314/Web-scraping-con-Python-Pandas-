@@ -22,7 +22,7 @@ def scrape_all_books():
     Navega por todas las páginas del catálogo, extrae la información de cada libro
     y la devuelve en una lista de diccionarios.
     """
-    print("🚀 Iniciando el scraping de books.toscrape.com...")
+    print("Iniciando el scraping de books.toscrape.com...")
     print("Esto puede tardar unos minutos, ya que se analizarán 1000 libros.")
 
     all_books = []
@@ -78,7 +78,7 @@ def scrape_all_books():
         else:
             page_url = None 
 
-    print("\n✅ Scraping completado con éxito.")
+    print("\n Scraping completado con éxito.")
     return all_books
 
 def main_menu(df):
@@ -178,9 +178,9 @@ def main_menu(df):
             try:
 
                 current_view_df.to_excel(filename, index=False)
-                print(f"\n✅ ¡Datos exportados con éxito en el archivo '{filename}'!")
+                print(f"\n ¡Datos exportados con éxito en el archivo '{filename}'!")
             except Exception as e:
-                print(f"\n❌ Ocurrió un error al exportar: {e}")
+                print(f"\n Ocurrió un error al exportar: {e}")
 
         elif choice == '8': 
             print("¡Hasta luego!")
@@ -200,7 +200,7 @@ if __name__ == '__main__':
 
     if books_data:
         libros_df = pd.DataFrame(books_data)
-        print("\n📊 DataFrame creado con la información de los libros.")
+        print("\n DataFrame creado con la información de los libros.")
 
 
         pd.set_option('display.max_rows', None)
