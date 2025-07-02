@@ -1,1 +1,1 @@
-El archivo .py puede ser ejecutado y modificado via spyder :)
+PLease if you want to open the .py it wont open so you can open it with spyder in anaconda or visual code studio so you are able to compile the code o modify it :) There is a .exe opcion if you dont want to modify the code and just try it out
