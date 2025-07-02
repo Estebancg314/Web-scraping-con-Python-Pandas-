@@ -1,0 +1,35 @@
+Esteban@orion MINGW64 ~/Desktop/Web Scraper para libros en Python Pandas (master D
+$ git init
+Initialized empty Git repository in C:/Users/Esteban/Desktop/Web Scraper para li bros en Python Pandas/.git/
+Esteban Orion MINGW64 ~/Desktop/web Scraper para libros en Python Pandas (master )
+$ git remote add origin https://github.com/Estebancg314/web-scraping-con-Python-Pandas-.git
+Esteban Orion MINGW64 ~/Desktop/Web Scraper para libros en Python Pandas (master
+D
+$ git status
+On branch master
+No commits yet
+Untracked files:
+(use "git add <file>..." to include in what will be committed) Web Scraper para libros en Python Pandas.py Web-Scraper.png
+nothing added to commit but untracked files present (use "git add" to track)
+Esteban Orion MINGW64 ~/Desktop/web Scraper para libros en Python Pandas (master
+D $ git add -A
+warning: in the working copy of 'Web Scraper para libros en Python Pandas.py'. L F will be replaced by CRLF the next time Git touches it
+Esteban Orion MINGW64 ~/Desktop/Web Scraper para libros en Python Pandas (master
+D
+$ git commit -m "Primer commit"
+[master (root-commit) 8c404a7] Primer commit
+2 files changed, 213 insertions (+)
+create mode 100644 web Scraper para libros en Python Pandas.py
+create mode 100644 Web-Scraper.png
+Esteban Orion MINGW64 ~/Desktop/Web Scraper para libros en Python Pandas (master )
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 6.05 KiB | 3.02 MiB/s, done. Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Estebancg314/web-scraping-con-Python-Pandas-.git
+* [new branch] master -> master
+Esteban Orion MINGW64 ~/Desktop/Web Scraper para libros en Python Pandas (master
+)
+$
